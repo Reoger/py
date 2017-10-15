@@ -22,7 +22,7 @@ class HtmlOutPuter(object):
             fout.write("<td>%s</td>" % data['title'].encode('utf-8'))
             fout.write("<td>%s</td>" % data['summary'].encode('utf-8'))
             fout.write("<td>%s</td>" % data['url'])
-         
+
             fout.write("</tr>")
 
         fout.write("</table>")
